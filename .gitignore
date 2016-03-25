@@ -61,3 +61,7 @@ target/
 # Google App Engine generated folder
 appengine-generated/
 >>>>>>> adaaddecc50208c18b08806f63f80f3342bd5e30
+
+# PyCharm generated
+.idea
+
