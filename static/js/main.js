@@ -3,6 +3,7 @@ function stem(){
       type: "POST",
       url: "/stem/",
       dataType: 'json',
+      contentType: 'application/json',
       data: JSON.stringify({ "text": $('#input_text').val()})
     })
     .done(function(data) {
