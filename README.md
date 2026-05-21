@@ -1,13 +1,25 @@
 # PySastrawi Demo
 
-Web-based stemmer for Bahasa Indonesia. Created as PySastrawi library demo application. 
+Web demo for [PySastrawi](https://github.com/har07/PySastrawi) — Indonesian language stemmer.
 
-**Try it live here : https://pysastrawi-demo.appspot.com/**
+**Try it live:** https://huggingface.co/spaces/{your-username}/pysastrawi-demo
 
-Libraries :
+## Run Locally
 
-- **`PySastrawi`**. Stemmer for Bahasa Indonesia. ([repo](https://github.com/har07/PySastrawi))
-- **`Jinja2`**. Template engine. ([official page](http://jinja.pocoo.org/))
-- **`Flask`**. Python Web framework ([documentation page](https://flask.palletsprojects.com/en/2.1.x/))
-- **`Skeleton`**. CSS boilerplate. ([official page](http://getskeleton.com/))
-- **`JQuery`**. ([official page](https://jquery.com/))
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+## Deploy to Hugging Face Spaces
+
+1. Go to [huggingface.co/new-space](https://huggingface.co/new-space)
+2. Space name: `pysastrawi-demo`
+3. SDK: `Gradio`
+4. Hardware: `CPU basic` (free tier)
+5. Connect this GitHub repo or upload files directly
+
+## Libraries
+
+- **PySastrawi** — Stemmer for Bahasa Indonesia
+- **Gradio** — Web UI framework for ML demos
