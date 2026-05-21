@@ -14,7 +14,7 @@ pinned: false
 
 Web demo for [PySastrawi](https://github.com/har07/PySastrawi) — Indonesian language stemmer.
 
-**Try it live:** https://huggingface.co/spaces/{your-username}/pysastrawi-demo
+**Try it live:** https://har07-pysastrawi-demo.hf.space/
 
 ## Run Locally
 
